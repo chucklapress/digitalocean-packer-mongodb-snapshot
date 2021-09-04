@@ -28,9 +28,10 @@ Be certain to record that number down as it will be needed to identify this snap
 when you want to deploy this image using Hashicorp Terraform
 
 ![](images/terminal.png?raw=true)  
+
 The digital oceans console should have the snapshot image  
 
-![](images/snaapshotweb.png?raw=true)  
+![](image/snapshotweb.png?raw=true)  
 
 ## Why create automated snap shots
 Well for one it produces more stable consistent deployments, your environments are always the same  
