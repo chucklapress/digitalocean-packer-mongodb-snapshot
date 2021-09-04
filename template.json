@@ -1,0 +1,21 @@
+{
+  "variables": {
+    "my_token":""
+  },
+  "builders": [
+    {
+      "type": "digitalocean",
+      "ssh_username": "root",
+      "api_token": "{{ user `my_token` }}",
+      "image": "ubuntu-18-04-x64",
+      "region": "nyc3",
+      "size": "s-1vcpu-1gb",
+      "snapshot_name": "packer-mongodb-server"
+    }],
+    "provisioners": [
+    {
+      "type": "shell",
+      "script": "script.sh"
+    }
+  ]
+ }
