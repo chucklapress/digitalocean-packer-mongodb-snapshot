@@ -23,7 +23,7 @@ packer build -var-file=variables.json template.json
 ```  
 ## Results  
 The following image is what you should see at the end of the packer build  
-IMPORTANT not at the bottom of the terminal return is a ID # (xxxxxxxxxxx)  
+IMPORTANT please note at the bottom of the terminal return is (ID: xxxxxxxxxxx)  
 Be certain to record that number down as it will be needed to identify this snapshot  
 when you want to deploy this image using Hashicorp Terraform
 
