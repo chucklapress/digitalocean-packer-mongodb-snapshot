@@ -30,6 +30,7 @@ when you want to deploy this image using Hashicorp Terraform
 ![](images/terminal.png?raw=true)  
 
 The digital oceans console should have the snapshot image  
+## Digital Oceans web console  
 
 ![](image/snapshotweb.png?raw=true)  
 
